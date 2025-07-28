@@ -3,7 +3,7 @@ package com.example.store;
 public class OrderService {
     private PaymentService paymentService;
 
-    public void OrderService(PaymentService paymentService) {
+    public OrderService(PaymentService paymentService) {
         this.paymentService = paymentService;
     }
 
